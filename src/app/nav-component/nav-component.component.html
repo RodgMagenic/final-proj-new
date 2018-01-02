@@ -1,0 +1,14 @@
+<!-- <div class="form-group">
+  <mat-form-field class="full-width">
+      <input matInput ngModel required type="text" id="firstName" name="firstName" placeholder="First Name">
+  </mat-form-field>
+</div> -->
+<div class="form-group row" id="nav">
+  <div>
+      <button mat-button [matMenuTriggerFor]="board">Board</button>
+      <mat-menu #board="matMenu">
+        <button mat-menu-item>Board 1</button>
+        <button mat-menu-item>Board 2</button>
+      </mat-menu>
+  </div>
+</div>
